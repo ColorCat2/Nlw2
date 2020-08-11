@@ -1,0 +1,52 @@
+/* CSS - Cascading StyleSheets */
+    :root {
+        --color-background: #8257e5;
+        --color-primary-lighter: #9871F5;
+        --color-primary-light: #62499c;
+        --color-primary: #160935;
+        --color-primary-dark: #774DD6;
+        --color-primary-darker: #6842c2;
+        --color-secondary: #04D361;
+        --color-secondary-dark: #04361b;
+        --color-title-in-primary: #FFFFFF;
+        --color-text-in-primary: #ffffff;
+        --color-text-in-secondary: #37353b;
+        --color-text-title: #ffffff;
+        --color-text-complement: #552bbe;
+        --color-text-base: #25105a;
+        --color-line-in-white: #E6E6F0;
+        --color-input-background: #F8F8FC;
+        --color-button-text: #ffffff;
+        --color-box-base: #FFFFFF;
+        --color-box-footer: #FAFAFC;
+        --color-small-info: #C1BCCC;
+        /* 16px - 100% - 1rem */
+        /*tamanho da fonto*/
+        /*pixel usado só em desktop*/
+        font-size: 60%; /* controle das medidas rem */        
+}
+html,body{
+    height: 100vh; /*altura*/
+}
+body {
+    background-color: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,input,button,textarea{
+    font: 500 1.6rem poppins;
+    font-weight: poppins;
+    font-size: 1.6;
+    color: var(--color-text-base);
+}
+
+#container{
+    width: 80vw;
+    max-width: 700px;   
+}
